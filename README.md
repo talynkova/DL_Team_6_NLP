@@ -52,3 +52,7 @@
 - Full stack - Elizaveta Talynkova
 - Full stack - [Nikita Bekasov](https://www.linkedin.com/in/nibekasov/)
 
+
+## Links
+- Ссылка на лучшую [модель:](https://drive.google.com/file/d/1-dLs11Bx-UzeK62gRoHgGAmC9WTxn284/view)
+- Ссылка на итоговый [датасет](https://drive.google.com/file/d/1oQPNTh9uCebatw5w2Ycqn-cezpZ_eq03/view?usp=sharing)
