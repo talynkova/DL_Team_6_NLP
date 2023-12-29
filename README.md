@@ -37,9 +37,59 @@
 
 ## Demo
 
-Здесь будет демо работы сервиса.
+### Пример запроса
+**`POST /career/score`**
 
+```json
+{
+    "vacancy":{
+        "Vacancy": "Golang Developer (Кипр)",
+        "Employer": "Space307",
+        "Vac_salary": "True", 
+        "Vac_salary_from": 251322.0,
+        "Vac_salary_to": 0,
+        "Vac_exp": "От 3 до 6 лет",
+        "Vac_schedule": "Полный день",
+        "Vac_description": "Мы в Space307 разрабатываем международную",
+        "Vac_prof_roles": "['Программист', 'разработчик']",
+        "Vac_specializations": "['Программирование', 'Разработка']",
+        "Vac_profar_names": "['Информационные технологии', 'интернет']",
+        "Vac_keys": "['Docker', 'Golang', 'Redis']"
+    },
+    "resume":{
+        "CV_name": "Middle Golang Developer",
+        "CV_salary_from": 251322.0,
+        "CV_salary_to": 0,
+        "CV_exp": "От 1 до 3 лет",
+        "CV_employment": "Полный день",
+        "CV_schedule": "Полный день",
+        "CV_area_name": "Москва",
+        "CV_prof_roles": "['Программист', 'разработчик']",
+        "CV_specializations": "['Программирование', 'Разработка']",
+        "CV_profar_names": "['Информационные технологии'']",
+        "CV_keys": "['Git', 'Golang', 'Rabbitmq']"
+    }
+}
 
+```
+Метод принимает информацию о вакансии и о резюме, и возвращает деликатности этой вакансии для резюме
+```json
+
+{
+    "vacancy": {
+        "name": "Golang Developer (Кипр)",
+        "employer": "Space307",
+        "schedule": "Полный день"
+    },
+    "resume": {
+        "name": "Middle Golang Developer",
+        "specializations": "['Программирование', 'Разработка']",
+        "keys": "['Git', 'Golang', 'Rabbitmq']"
+    },
+    "score": 0.021916874830105362
+}
+
+```
 ## FAQ
 
 На данный момент нами не было выявлено никаких проблем в работе проекта. Если вдруг Вы столкнётесь с проблемой - пожалуйста, напишите кому-нибудь из команды проекта в LinkedIn, мы обещаем посмотреть и разобраться!
