@@ -99,8 +99,8 @@
 
 
 ## Project team
-- DE - [Siniaev Viacheslav](https://www.linkedin.com/in/vyacheslavsinyaev/) 
-- ML - 
+- DE - [Viacheslav Siniaev](https://www.linkedin.com/in/vyacheslavsinyaev/) 
+- ML - [Evgeny Taychinov](https://www.linkedin.com/in/evgeny-taychinov/)
 - Back-end - [Mulham Shahin](https://www.linkedin.com/in/mulham-shaheen-684352206/)
 - Full stack - Elizaveta Talynkova
 - Full stack - [Nikita Bekasov](https://www.linkedin.com/in/nibekasov/)
